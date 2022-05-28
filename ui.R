@@ -11,7 +11,7 @@ htmlTemplate(
   "www/index.html",
   appTitle = consts$app_title,
   appVersion = consts$app_version,
-  mainLogo = getExternalLink("https://appsilon.com/", "main", consts$appsilonLogo),
+  mainLogo = getExternalLink("https://jgaman.github.io/", "main", consts$appsilonLogo),
   dashboardLogo = getExternalLink("https://shiny.rstudio.com/", "dashboard", consts$shinyLogo),
   selectYear = selectInput(
     "selected_year", "Year",
