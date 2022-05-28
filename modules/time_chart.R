@@ -79,8 +79,8 @@ server <- function(input, output, session, df, y, m, previous_time_range) {
       dy_bar_chart() %>%
       dyAxis("y", axisLabelWidth = 60) %>%
       dyAxis("x", drawGrid = FALSE) %>%
-      dySeries(metric()$id, label = metric_legend, color = "#0099F9") %>%
-      dySeries(all_of(metric_change_key), label = diff_label, color = "#15354A") %>%
+      dySeries(metric()$id, label = metric_legend, color = "#58b368") %>%
+      dySeries(all_of(metric_change_key), label = diff_label, color = "#309975") %>%
       dyOptions(
         includeZero = FALSE,
         axisLineColor = "#585858",

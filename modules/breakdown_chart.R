@@ -58,7 +58,7 @@ server <- function(input, output, session, df, y, m, previous_time_range) {
       gather(all_of(percents), key = "metric", value = "value") %>%
       mutate(
         label = paste(round(value, 1), "%", sep=""),
-        barColor = ifelse(value >= 0 | is.na(value), "#0099F9", "#15354A"),
+        barColor = ifelse(value >= 0 | is.na(value), "#58b368", "#309975"),
         hOffset = ifelse(value >= 0 | is.na(value), -0.1, 1.1),
       )
 

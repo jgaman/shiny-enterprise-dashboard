@@ -3,7 +3,7 @@ import("dplyr")
 import("htmltools")
 
 app_title <- "Covid Monitoring Dashboard "
-app_version <- "1.0.0"
+app_version <- "2.0.0"
 data_last_day <- "2020-05-10" %>% as.Date()
 data_first_day <- "2015-01-01" %>% as.Date()
 marketplace_website <- "https://jgaman.github.io/"
@@ -90,7 +90,7 @@ prev_time_range_choices <- list("Previous Year" = "prev_year", "Previous Month" 
 
 appsilonLogo <- HTML("
   <svg class='logo-svg' viewBox='0 0 660.52 262.96'>
-    <use href='assets/icons/icons-sprite-map.svg#appsilon-logo'></use>
+    <use href='assets/icons/almo-konstrukciya.svg#shiny-logo'></use>
   </svg>
 ")
 
@@ -103,8 +103,8 @@ shinyLogo <- HTML("
 colors <- list(
   white = "#FFF",
   black = "#0a1e2b",
-  primary = "#0099F9",
-  secondary = "#15354A",
+  primary = "#58b368",
+  secondary = "#309975",
   ash = "#B3B8BA",
   ash_light = "#e3e7e9"
 )
