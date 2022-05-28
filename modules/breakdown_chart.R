@@ -1,6 +1,7 @@
 # Ggplot horizontal bar chart module
 
 import("shiny")
+import("tidyverse")
 import("tidyselect")
 import("lubridate")
 import("dplyr")
