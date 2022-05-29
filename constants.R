@@ -2,7 +2,7 @@
 import("dplyr")
 import("htmltools")
 
-app_title <- "Covid Monitoring Dashboard "
+app_title <- "Business Overview "
 app_version <- "2.0.0"
 data_last_day <- "2020-05-10" %>% as.Date()
 data_first_day <- "2015-01-01" %>% as.Date()

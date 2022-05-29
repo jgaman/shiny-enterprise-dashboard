@@ -1,0 +1,13 @@
+name: shiny-enterprise-dashboard
+title: shiny-enterprise-dashboard
+username:
+account: jgaman
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6389401
+bundleId: 5956718
+url: https://jgaman.shinyapps.io/shiny-enterprise-dashboard/
+when: 1653825000.55022
+lastSyncTime: 1653825000.55023
+asMultiple: FALSE
+asStatic: FALSE

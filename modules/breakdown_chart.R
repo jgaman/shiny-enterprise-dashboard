@@ -68,7 +68,6 @@ server <- function(input, output, session, df, y, m, previous_time_range) {
 
     bar <- ggplot(data, aes(metric, value, weight = value))
     bar +
-      coord_flip() +
       geom_bar(
         fill = data$barColor,
         show.legend = FALSE,
@@ -77,8 +76,7 @@ server <- function(input, output, session, df, y, m, previous_time_range) {
       ) +
       geom_text(
         aes(y = value, label = label),
-        vjust = 0.5,
-        hjust = data$hOffset,
+        vjust = -0.25,
         color = data$barColor
       ) +
       scale_y_continuous(expand = c(0.15, 0.1)) +
