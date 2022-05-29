@@ -3,7 +3,7 @@ import("dplyr")
 import("htmltools")
 
 app_title <- "Business Overview "
-app_version <- "2.0.0"
+app_version <- "2.5.0"
 data_last_day <- "2020-05-10" %>% as.Date()
 data_first_day <- "2015-01-01" %>% as.Date()
 marketplace_website <- "https://jgaman.github.io/"

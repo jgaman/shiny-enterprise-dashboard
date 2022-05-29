@@ -53,7 +53,8 @@ server <- function(input, output, session, df, y, m, previous_time_range) {
       data <- monthly_stats %>%
         filter(year(as.Date(date)) == y() & month(as.Date(date)) == m())
     }
-
+    
+    #Pour modifier les données utilisées pour le graph de 69 à 95
     data <- data %>%
       select(all_of(percents)) %>%
       gather(all_of(percents), key = "metric", value = "value") %>%
@@ -66,6 +67,7 @@ server <- function(input, output, session, df, y, m, previous_time_range) {
     # set metric names as titles
     data["metric"] <- unlist(lapply(consts$metrics_list[metrics], "[", "title"))
 
+    #code pour la visualisation Breakdown
     bar <- ggplot(data, aes(metric, value, weight = value))
     bar +
       geom_bar(
