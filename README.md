@@ -2,6 +2,7 @@
 `ver. 1.0.0`
 
 This is a template based on an html template and styled by Appsilon. This template contains multiple components (e.g., map, charts, KPIs). Each component is defined as a separate module which makes it easy to reuse. You can use them to build your own application. We added example data so you can run an example application after downloading the template. 
+<img width="1920" alt="Business dashboard" src="https://user-images.githubusercontent.com/43534237/171479792-1708cadd-2aae-48b7-b99e-f188641538dd.png">
 
 We encourage you to try to add your own elements and style them based on the examples in the application!
 
